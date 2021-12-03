@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "2.26.0"
+tabulate = "0.8.9"
+
+[dev-packages]
+pytest = "*"
+black = "21.9b0"
+
+[requires]
+python_version = "3"
